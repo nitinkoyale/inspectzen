@@ -5,3 +5,14 @@ runConfig:
   # Increase this value if you'd like to automatically spin up
   # more instances in response to increased traffic.
   maxInstances: 1
+
+# Environment variables for your application.
+# Explicitly defined here to ensure availability during build and runtime.
+environmentVariables:
+  NEXT_PUBLIC_FIREBASE_API_KEY: "AIzaSyDW-s8rcb33MACkfPhZpVaCoX5B3hMFdpA"
+  NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: "inspectzen-ayz24.firebaseapp.com"
+  NEXT_PUBLIC_FIREBASE_PROJECT_ID: "inspectzen-ayz24"
+  NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: "inspectzen-ayz24.firebasestorage.app"
+  NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: "665227127505"
+  NEXT_PUBLIC_FIREBASE_APP_ID: "1:665227127505:web:1729facbec2f9d7cd8f3f0"
+  # NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID: "G-5VY9ZHGNVS" # Measurement ID is often optional for core SDK functionality
